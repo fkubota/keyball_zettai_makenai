@@ -47,6 +47,7 @@ def main():
 
             # 更新
             list_[2] = result
+            dict_keyball[key] = list_
 
             # 通知
             if idx!=0 and is_difference:
