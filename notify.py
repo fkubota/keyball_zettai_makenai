@@ -49,7 +49,6 @@ def main():
             list_[2] = result
 
             # 通知
-            print(idx, is_difference)
             if idx!=0 and is_difference:
                 notify_slack(key, list_[0])
         idx += 1
